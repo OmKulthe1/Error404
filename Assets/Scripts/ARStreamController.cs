@@ -64,13 +64,23 @@ public class ARStreamController : MonoBehaviour
                     // TAP TO PLACE
                     if (touch0.phase == TouchPhase.Began)
                     {
-                        if (raycastManager.Raycast(touch0.position, hits, TrackableType.PlaneWithinPolygon))
+                        Handheld.Vibrate();
+
+                        if (raycastManager.Raycast(touch0.position, hits, TrackableType.Planes))
                         {
                             var hitPose = hits[0].pose;
-                            downloadedModel.transform.position = hitPose.position;
+
+                            // ADD AN OFFSET: 0.05f equals 5 centimeters straight up. 
+                            // Adjust this number if it needs to be higher or lower!
+                            Vector3 offsetPosition = hitPose.position + new Vector3(0, 0.05f, 0);
+
+                            // Apply the new offset position
+                            downloadedModel.transform.position = offsetPosition;
                             downloadedModel.transform.rotation = hitPose.rotation;
+
+                            downloadedModel.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
                             downloadedModel.SetActive(true);
-                            placedModel = downloadedModel; // Mark as placed
+                            placedModel = downloadedModel;
                         }
                     }
                 }

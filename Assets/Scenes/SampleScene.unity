@@ -1139,8 +1139,8 @@ MonoBehaviour:
   m_Name: 
   m_EditorClassIdentifier: Assembly-CSharp::ARStreamController
   raycastManager: {fileID: 503778000}
-  modelUrl: https://raw.githubusercontent.com/YOUR_LINK_HERE.glb
-  minScale: 0.5
+  modelUrl: https://raw.githubusercontent.com/OmKulthe1/Error404/main/japanese_temple.glb
+  minScale: 0.1
   maxScale: 1
   rotationSpeed: 0.2
 --- !u!4 &292843358
@@ -1461,7 +1461,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &436358033
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -5131,7 +5131,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &1323550133
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -7710,7 +7710,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!114 &2099970466
 MonoBehaviour:
   m_ObjectHideFlags: 0
