@@ -63137,7 +63137,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyInternalEnumerator_1__cctor_mB0A335
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89347
+// Method Definition Index: 89349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyReadOnlyCollection_1__cctor_m1A91B30FD28FF0250E26545C3805BC4D56E3635E_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -63158,7 +63158,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyReadOnlyCollection_1__cctor_m1A91B3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89347
+// Method Definition Index: 89349
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void EmptyReadOnlyCollection_1__cctor_m1B63D1595592E82E939D9379E6DCC169E684E217_gshared (const RuntimeMethod* method) 
 {
 	{
@@ -64236,7 +64236,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry__ctor_m1523ABCDEBE31BA50D6801DB569
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89334
+// Method Definition Index: 89336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry__ctor_m048B8DCA25269A57966121E109EBAB88D0E0C287_gshared (Entry_t385F5C79440E9A7C72331662DD6492EAC37E3645* __this, int32_t ___0_hash, RuntimeObject* ___1_key, RuntimeObject* ___2_value, const RuntimeMethod* method) 
 {
 	{
@@ -64524,7 +64524,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry__ctor_m048B8DCA25269A57966121E109E
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 104709
+// Method Definition Index: 104711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Entry_Equals_m8C7A2CB636D79D12AFACD6957620DED9CCB73DCD_gshared (Entry_t1FBFB504C989AF41DB9CD98FC8812617114C2564* __this, Entry_t1FBFB504C989AF41DB9CD98FC8812617114C2564 ___0_other, const RuntimeMethod* method) 
 {
 	{
@@ -64548,7 +64548,7 @@ IL2CPP_EXTERN_C  bool Entry_Equals_m8C7A2CB636D79D12AFACD6957620DED9CCB73DCD_Adj
 	_returnValue = Entry_Equals_m8C7A2CB636D79D12AFACD6957620DED9CCB73DCD(_thisAdjusted, ___0_other, method);
 	return _returnValue;
 }
-// Method Definition Index: 104710
+// Method Definition Index: 104712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Entry_GetHashCode_m60518F16A07B9D3EBAC6E4EC8ADF46484FF31EF8_gshared (Entry_t1FBFB504C989AF41DB9CD98FC8812617114C2564* __this, const RuntimeMethod* method) 
 {
 	{
@@ -64633,7 +64633,7 @@ IL2CPP_EXTERN_C  int32_t Entry_GetHashCode_m60518F16A07B9D3EBAC6E4EC8ADF46484FF3
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 89334
+// Method Definition Index: 89336
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry__ctor_m2F1C9A616BEC4E7A6E2CC1EC557EEDED507302D0_gshared (Entry_t6CF26C312F03AEBE8B5B4B27D561BCBB05E81AD6* __this, int32_t ___0_hash, Il2CppFullySharedGenericAny ___1_key, Il2CppFullySharedGenericAny ___2_value, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_TKey_t460F27D54F9BE6871E25D5F6F1EBE94010BDA7DD = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(method->klass->rgctx_data, 1));
@@ -64667,7 +64667,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void Entry__ctor_m2F1C9A616BEC4E7A6E2CC1EC557
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 104709
+// Method Definition Index: 104711
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool Entry_Equals_mBFB6A92F0B14AAD6C51562D8835117551C72C9AB_gshared (Entry_t27A12FF83E74E8E62C194CB2DC007E06A9DC6647* __this, Entry_t27A12FF83E74E8E62C194CB2DC007E06A9DC6647 ___0_other, const RuntimeMethod* method) 
 {
 	const uint32_t SizeOf_Entry_t29BEACB44DD47A0502B9DB93139B3DE0E8E6381B = il2cpp_codegen_sizeof(il2cpp_rgctx_data_no_init(InitializedTypeInfo(method->klass)->rgctx_data, 0));
@@ -64691,7 +64691,7 @@ IL2CPP_EXTERN_C  bool Entry_Equals_mBFB6A92F0B14AAD6C51562D8835117551C72C9AB_Adj
 	_returnValue = Entry_Equals_mBFB6A92F0B14AAD6C51562D8835117551C72C9AB(_thisAdjusted, ___0_other, method);
 	return _returnValue;
 }
-// Method Definition Index: 104710
+// Method Definition Index: 104712
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR int32_t Entry_GetHashCode_m09C086F7EF04553E32666EFE594DBFC677FD6061_gshared (Entry_t27A12FF83E74E8E62C194CB2DC007E06A9DC6647* __this, const RuntimeMethod* method) 
 {
 	void* L_0 = alloca(Il2CppFakeBoxBuffer::SizeNeededFor(il2cpp_rgctx_data(InitializedTypeInfo(method->klass)->rgctx_data, 1)));

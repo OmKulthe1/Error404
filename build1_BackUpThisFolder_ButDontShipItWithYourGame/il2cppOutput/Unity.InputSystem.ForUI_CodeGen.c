@@ -108,10 +108,10 @@ static Il2CppMethodPointer s_methodPointers[48] =
 };
 static const int32_t s_InvokerIndices[48] = 
 {
-	32909,
+	32910,
 	19058,
-	32858,
-	32858,
+	32859,
+	32859,
 	18621,
 	18605,
 	19058,
@@ -128,7 +128,7 @@ static const int32_t s_InvokerIndices[48] =
 	14296,
 	10272,
 	19022,
-	27262,
+	27263,
 	2999,
 	12159,
 	11857,
@@ -150,10 +150,10 @@ static const int32_t s_InvokerIndices[48] =
 	6131,
 	19058,
 	19058,
-	31471,
+	31472,
 	19058,
-	32858,
-	32858,
+	32859,
+	32859,
 	19058,
 	5184,
 };
