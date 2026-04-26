@@ -17,6 +17,7 @@ public class ARStreamController : MonoBehaviour
     public ARRaycastManager raycastManager;
     public ARPlaneManager planeManager;
 
+
     [Header("Model Streaming")]
     [Tooltip("Paste your raw GitHub .glb link here")]
     public string modelUrl = "https://raw.githubusercontent.com/OmKulthe1/Error404/main/japanese_temple.glb";
@@ -177,4 +178,6 @@ public class ARStreamController : MonoBehaviour
         EventSystem.current.RaycastAll(eventData, results);
         return results.Count > 0;
     }
+
+
 }

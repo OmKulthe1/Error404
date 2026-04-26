@@ -154,7 +154,6 @@ MonoBehaviour:
   minScale: 0.05
   maxScale: 0.1
   rotationSpeed: 0.2
-  ModelSelectionUIObject: {fileID: 0}
 --- !u!4 &95886023
 Transform:
   m_ObjectHideFlags: 0
