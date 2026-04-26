@@ -12,12 +12,14 @@ extern void ARStreamController_OnDisable_mFF22898CBB6023B0D566B8C8BB296FE4E704D0
 extern void ARStreamController_Start_m35D0A3E9D767A9E47F86363B117CBA89A43D8B0F (void);
 extern void ARStreamController_DownloadAndInstantiateModelAsync_m46E257358E04A75A001439AFEDB927E2EBA68F12 (void);
 extern void ARStreamController_Update_m40E98FAC1620F36EFCDF21B7EEF5F487501D1C83 (void);
+extern void ARStreamController_SetPlaneIndicatorsActive_mF0562C81DCDBC41DE2B749EFBEFBCBB3C268D27D (void);
 extern void ARStreamController_IsPointerOverUI_m62AD92F46113863AC8CFE6A6C715B859ABCE75FD (void);
 extern void ARStreamController__ctor_m95941D243F26C98A8943F5E92140A7E145C78D97 (void);
 extern void ARStreamController__cctor_m38AE8255D612687685B12EF8213A6EDEEA3A59D1 (void);
 extern void U3CDownloadAndInstantiateModelAsyncU3Ed__13_MoveNext_mEBB2E714F8A89D19E2401EC9F696C96E14827C5A (void);
 extern void U3CDownloadAndInstantiateModelAsyncU3Ed__13_SetStateMachine_m95912817CD2DD16A6210BFA6F8D1426B7DFC6352 (void);
-extern void LoadScene_SceneChange_mBC476E08C658E71F7BCDA6996E37E9373AE8AC61 (void);
+extern void LoadScene_SceneChange1_mD89071D08FE43475AC89B9570A0E9CDD4B9B9AAC (void);
+extern void LoadScene_SceneChange2_m7346EF62CD9F2454760E688588400B214AB6C0E6 (void);
 extern void LoadScene__ctor_m560E29BD726E67BB4572A9B8098DD97BEFFF63DD (void);
 extern void SceneTemplate_RotateCube_Update_mAF2FB34B99E325443A80D60A7EB73DC092EAE9A6 (void);
 extern void SceneTemplate_RotateCube__ctor_mC7E11C05D25FFF6F8D7EA06AAE5598B497365CD2 (void);
@@ -113,19 +115,21 @@ extern void U3CWaitUntilNextCardU3Ed__36_MoveNext_mEB6BA70FAED1CFCFF4A723EA3EAB8
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_Generic_IEnumeratorU3CSystem_ObjectU3E_get_Current_mDB2315FB1F67F06B37604285AD8F003E282D1607 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_Reset_m5E5CC9DFDC8C17DB423A7C7ECBCD4342A7754633 (void);
 extern void U3CWaitUntilNextCardU3Ed__36_System_Collections_IEnumerator_get_Current_mE7D77BA338B271D9E95117683B19436CFFF37229 (void);
-static Il2CppMethodPointer s_methodPointers[106] = 
+static Il2CppMethodPointer s_methodPointers[108] = 
 {
 	ARStreamController_OnEnable_m250A5142D90EA5ADC5E88E8424E4C53B3A295FB2,
 	ARStreamController_OnDisable_mFF22898CBB6023B0D566B8C8BB296FE4E704D0CD,
 	ARStreamController_Start_m35D0A3E9D767A9E47F86363B117CBA89A43D8B0F,
 	ARStreamController_DownloadAndInstantiateModelAsync_m46E257358E04A75A001439AFEDB927E2EBA68F12,
 	ARStreamController_Update_m40E98FAC1620F36EFCDF21B7EEF5F487501D1C83,
+	ARStreamController_SetPlaneIndicatorsActive_mF0562C81DCDBC41DE2B749EFBEFBCBB3C268D27D,
 	ARStreamController_IsPointerOverUI_m62AD92F46113863AC8CFE6A6C715B859ABCE75FD,
 	ARStreamController__ctor_m95941D243F26C98A8943F5E92140A7E145C78D97,
 	ARStreamController__cctor_m38AE8255D612687685B12EF8213A6EDEEA3A59D1,
 	U3CDownloadAndInstantiateModelAsyncU3Ed__13_MoveNext_mEBB2E714F8A89D19E2401EC9F696C96E14827C5A,
 	U3CDownloadAndInstantiateModelAsyncU3Ed__13_SetStateMachine_m95912817CD2DD16A6210BFA6F8D1426B7DFC6352,
-	LoadScene_SceneChange_mBC476E08C658E71F7BCDA6996E37E9373AE8AC61,
+	LoadScene_SceneChange1_mD89071D08FE43475AC89B9570A0E9CDD4B9B9AAC,
+	LoadScene_SceneChange2_m7346EF62CD9F2454760E688588400B214AB6C0E6,
 	LoadScene__ctor_m560E29BD726E67BB4572A9B8098DD97BEFFF63DD,
 	SceneTemplate_RotateCube_Update_mAF2FB34B99E325443A80D60A7EB73DC092EAE9A6,
 	SceneTemplate_RotateCube__ctor_mC7E11C05D25FFF6F8D7EA06AAE5598B497365CD2,
@@ -227,22 +231,24 @@ extern void U3CDownloadAndInstantiateModelAsyncU3Ed__13_SetStateMachine_m9591281
 extern void Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk (void);
 static Il2CppTokenAdjustorThunkPair s_adjustorThunks[3] = 
 {
-	{ 0x06000009, U3CDownloadAndInstantiateModelAsyncU3Ed__13_MoveNext_mEBB2E714F8A89D19E2401EC9F696C96E14827C5A_AdjustorThunk },
-	{ 0x0600000A, U3CDownloadAndInstantiateModelAsyncU3Ed__13_SetStateMachine_m95912817CD2DD16A6210BFA6F8D1426B7DFC6352_AdjustorThunk },
-	{ 0x0600004F, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
+	{ 0x0600000A, U3CDownloadAndInstantiateModelAsyncU3Ed__13_MoveNext_mEBB2E714F8A89D19E2401EC9F696C96E14827C5A_AdjustorThunk },
+	{ 0x0600000B, U3CDownloadAndInstantiateModelAsyncU3Ed__13_SetStateMachine_m95912817CD2DD16A6210BFA6F8D1426B7DFC6352_AdjustorThunk },
+	{ 0x06000051, Goal__ctor_m4452076EE88E564D97BBDD12E7011CAF34E275A3_AdjustorThunk },
 };
-static const int32_t s_InvokerIndices[106] = 
+static const int32_t s_InvokerIndices[108] = 
 {
 	19058,
 	19058,
 	19058,
 	19058,
 	19058,
+	14296,
 	10574,
 	19058,
 	32859,
 	19058,
 	14529,
+	19058,
 	19058,
 	19058,
 	19058,
@@ -344,7 +350,7 @@ IL2CPP_EXTERN_C const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule;
 const Il2CppCodeGenModule g_AssemblyU2DCSharp_CodeGenModule = 
 {
 	"Assembly-CSharp.dll",
-	106,
+	108,
 	s_methodPointers,
 	3,
 	s_adjustorThunks,

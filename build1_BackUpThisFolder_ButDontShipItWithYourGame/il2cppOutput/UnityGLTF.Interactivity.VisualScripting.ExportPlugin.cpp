@@ -374,7 +374,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void GLTFExportPlugin__ctor_m41AFD4FDF9B4B9A1
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115177
+// Method Definition Index: 115179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8AC5F4BCA48EAF0221B835904105F3D0458BBC02 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mEF6E255C4D2B51D7B74C994A6E42AB8733803E4F (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -408,7 +408,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t8AC5F4BCA48EAF0221B835904105F
 		return L_6;
 	}
 }
-// Method Definition Index: 115178
+// Method Definition Index: 115180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mA9E7C693F910E08ECDFF704088BFCB91566A27F2 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_tF2559ABF4460D3480D6AB7CEFCB7AF7B1AE3BD49* __this, const RuntimeMethod* method) 
 {
 	{
@@ -494,7 +494,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t8AC5F4BCA48EAF0221B835904105F3D0458BBC02_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115179
+// Method Definition Index: 115181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JToken_tFD7D9015F3F97A09AD93E439ACE894D12C06E8B3* VisualScriptingExportPlugin_get_AssetExtras_m39AED4A1982853E0C04ED8899A9404F188FA8B95 (VisualScriptingExportPlugin_t158FB212CE648BDCB330EFC9A10537D57D2683E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -531,7 +531,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR JToken_tFD7D9015F3F97A09AD93E439ACE894D12C06E
 		return L_5;
 	}
 }
-// Method Definition Index: 115180
+// Method Definition Index: 115182
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VisualScriptingExportPlugin_get_Enabled_mBF3CADD354A69DFB1B53F48A936D9832DAA00CCA (VisualScriptingExportPlugin_t158FB212CE648BDCB330EFC9A10537D57D2683E8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -539,7 +539,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VisualScriptingExportPlugin_get_Enabled_
 		return (bool)0;
 	}
 }
-// Method Definition Index: 115181
+// Method Definition Index: 115183
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VisualScriptingExportPlugin_get_EnabledByDefault_m3F758A1C8652459F3FCEF2D3015434818E63A02F (VisualScriptingExportPlugin_t158FB212CE648BDCB330EFC9A10537D57D2683E8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -547,7 +547,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VisualScriptingExportPlugin_get_EnabledB
 		return (bool)0;
 	}
 }
-// Method Definition Index: 115182
+// Method Definition Index: 115184
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VisualScriptingExportPlugin_get_PackageMissing_m5E55CE8D4AA9AE0890E7A9957797B44ED4F8E6EE (VisualScriptingExportPlugin_t158FB212CE648BDCB330EFC9A10537D57D2683E8* __this, const RuntimeMethod* method) 
 {
 	{
@@ -555,7 +555,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR bool VisualScriptingExportPlugin_get_PackageM
 		return (bool)1;
 	}
 }
-// Method Definition Index: 115183
+// Method Definition Index: 115185
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VisualScriptingExportPlugin_get_DisplayName_m5220F30BFD682E6CBF9C9385017255992FE6910F (VisualScriptingExportPlugin_t158FB212CE648BDCB330EFC9A10537D57D2683E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -569,7 +569,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VisualScriptingExportPlugin_get_Dis
 		return _stringLiteralC6A440C23497F6AADE7BE9842DA26743ECB4ADE9;
 	}
 }
-// Method Definition Index: 115184
+// Method Definition Index: 115186
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VisualScriptingExportPlugin_get_Description_mCD616B0030F25D0241EDD5B6BDA3284173F87B19 (VisualScriptingExportPlugin_t158FB212CE648BDCB330EFC9A10537D57D2683E8* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -583,7 +583,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR String_t* VisualScriptingExportPlugin_get_Des
 		return _stringLiteralE8CA43C8EE3DB13E0ECC8CE07F31F7CBA95143FA;
 	}
 }
-// Method Definition Index: 115185
+// Method Definition Index: 115187
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GLTFExportPluginContext_t8C6EC453DF190D7EE2AEE0B89FE7553F91AA7C43* VisualScriptingExportPlugin_CreateInstance_m7EAFA57FAA65A548FD3EDC64C86B1180FA6F78E9 (VisualScriptingExportPlugin_t158FB212CE648BDCB330EFC9A10537D57D2683E8* __this, ExportContext_t91248C8B322E6B6FCF18BEC292C533E573056D07* ___0_context, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -601,7 +601,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR GLTFExportPluginContext_t8C6EC453DF190D7EE2AE
 		return (GLTFExportPluginContext_t8C6EC453DF190D7EE2AEE0B89FE7553F91AA7C43*)NULL;
 	}
 }
-// Method Definition Index: 115186
+// Method Definition Index: 115188
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void VisualScriptingExportPlugin__ctor_mA560EE642BDD3EC5BCD3AF146BE64FAEA48655CB (VisualScriptingExportPlugin_t158FB212CE648BDCB330EFC9A10537D57D2683E8* __this, const RuntimeMethod* method) 
 {
 	{

@@ -19797,6 +19797,11 @@ struct InstanceDataSystem_tC6D72AB1BF62EAE1F6A83946CD2949D74EAC6F8F  : public Ru
 	bool ___m_EnableBoundingSpheres;
 	Int32U5BU5D_t19C97395396A72ECAF310612F0760F165060314C* ___m_ScratchWindParamAddressArray;
 };
+struct LoadScene_t13789E834A08B06FF59FCCEA1BA366FC2965E335  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
+{
+	String_t* ___sceneName1;
+	String_t* ___sceneName2;
+};
 struct LocomotionProvider_t359A39ECDB2224E3FF09583CF055A3D19A3557BD  : public MonoBehaviour_t532A11E69716D348D8AA7F854AFCBFCB8AD17F71
 {
 	LocomotionMediator_tFF0E600A153C909C211466942B7D4C3DA6105AD6* ___m_Mediator;
@@ -26586,6 +26591,9 @@ IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14083[5] =
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14084[10] = 
 {
 	static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___raycastManager)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___planeManager)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___modelUrl)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___minScale)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___maxScale)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___rotationSpeed)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___downloadedModel)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___placedModel)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B, ___isDownloading)),static_cast<int32_t>(offsetof(ARStreamController_tC0562CDC5BE11649223564E219EC1B9BAF0E453B_StaticFields, ___hits)),};
+IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14085[2] = 
+{
+	static_cast<int32_t>(offsetof(LoadScene_t13789E834A08B06FF59FCCEA1BA366FC2965E335, ___sceneName1)),static_cast<int32_t>(offsetof(LoadScene_t13789E834A08B06FF59FCCEA1BA366FC2965E335, ___sceneName2)),};
 IL2CPP_EXTERN_C const int32_t g_FieldOffsetTable14086[2] = 
 {
 	static_cast<int32_t>(offsetof(SceneTemplate_RotateCube_tB6D99CC88F0E89517A2E6E071F0334FE69FB44CC, ___rotateSpeed)),static_cast<int32_t>(offsetof(SceneTemplate_RotateCube_tB6D99CC88F0E89517A2E6E071F0334FE69FB44CC, ___objectRotation)),};

@@ -93,6 +93,7 @@
           {
             "name": "AudioBehaviour",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -108,6 +109,7 @@
           {
             "name": "AudioListener",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -170,6 +172,7 @@
           {
             "name": "Camera",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -191,6 +194,7 @@
           {
             "name": "Cubemap",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -218,6 +222,7 @@
           {
             "name": "EditorExtension",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -233,6 +238,7 @@
           {
             "name": "GameObject",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -266,6 +272,7 @@
           {
             "name": "LevelGameManager",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -275,6 +282,7 @@
           {
             "name": "Light",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -302,6 +310,7 @@
           {
             "name": "LightmapSettings",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -323,6 +332,7 @@
           {
             "name": "Material",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -332,6 +342,7 @@
           {
             "name": "Mesh",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -341,6 +352,7 @@
           {
             "name": "MeshFilter",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -350,6 +362,7 @@
           {
             "name": "MeshRenderer",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -359,6 +372,7 @@
           {
             "name": "MonoBehaviour",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -374,6 +388,7 @@
           {
             "name": "MonoScript",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -383,6 +398,7 @@
           {
             "name": "NamedObject",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -422,7 +438,9 @@
           {
             "name": "RectTransform",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/RamdaraTempleScene.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TheurTempleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -438,6 +456,7 @@
           {
             "name": "RenderSettings",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -471,6 +490,7 @@
           {
             "name": "Shader",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -514,7 +534,9 @@
           {
             "name": "Sprite",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/RamdaraTempleScene.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TheurTempleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1107,6 +1129,7 @@
           {
             "name": "Collider",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -1116,6 +1139,7 @@
           {
             "name": "MeshCollider",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -1131,6 +1155,7 @@
           {
             "name": "Rigidbody",
             "scenes": [
+              "Assets/Scenes/RamdaraTempleScene.unity",
               "Assets/Scenes/SampleScene.unity",
               "Assets/Scenes/TheurTempleScene.unity"
             ],
@@ -1573,7 +1598,9 @@
           {
             "name": "Font",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/RamdaraTempleScene.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TheurTempleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1616,7 +1643,9 @@
           {
             "name": "Canvas",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/RamdaraTempleScene.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TheurTempleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null
@@ -1630,7 +1659,9 @@
           {
             "name": "CanvasRenderer",
             "scenes": [
-              "Assets/Scenes/SampleScene.unity"
+              "Assets/Scenes/RamdaraTempleScene.unity",
+              "Assets/Scenes/SampleScene.unity",
+              "Assets/Scenes/TheurTempleScene.unity"
             ],
             "dependencyType": 0,
             "icon": null

@@ -103,7 +103,7 @@ public class ARStreamController : MonoBehaviour
                 if (placedModel == null)
                 {
                     // TAP TO PLACE
-                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Began)
+                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Began && touch0.tapCount == 1)
                     {
                         Handheld.Vibrate();
 
@@ -120,6 +120,7 @@ public class ARStreamController : MonoBehaviour
                             downloadedModel.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
                             downloadedModel.SetActive(true);
                             placedModel = downloadedModel;
+                            SetPlaneIndicatorsActive(false);
                         }
                         else
                         {
@@ -131,6 +132,15 @@ public class ARStreamController : MonoBehaviour
                 }
                 else
                 {
+                    // DOUBLE-TAP TO REMOVE MODEL
+                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Began && touch0.tapCount == 2)
+                    {
+                        placedModel.SetActive(false);
+                        placedModel = null;
+                        SetPlaneIndicatorsActive(true);
+                        return;
+                    }
+
                     // SWIPE TO ROTATE
                     if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Moved)
                     {
@@ -164,6 +174,16 @@ public class ARStreamController : MonoBehaviour
                     placedModel.transform.localScale = newScale;
                 }
             }
+        }
+    }
+
+    private void SetPlaneIndicatorsActive(bool active)
+    {
+        if (planeManager == null) return;
+
+        foreach (var plane in planeManager.trackables)
+        {
+            plane.gameObject.SetActive(active);
         }
     }
 
