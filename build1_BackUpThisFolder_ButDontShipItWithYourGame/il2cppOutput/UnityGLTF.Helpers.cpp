@@ -603,7 +603,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void OutOfMemoryException__ctor_m2CDADA05A630
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115167
+// Method Definition Index: 115170
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t437B3D77ED2CDE95A3E4F5DE89DB50A7E6B2A625 UnitySourceGeneratedAssemblyMonoScriptTypes_v1_Get_mBC8118DD66D13BD7E2B80765E63CB799EA5BC470 (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -637,7 +637,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR MonoScriptData_t437B3D77ED2CDE95A3E4F5DE89DB5
 		return L_6;
 	}
 }
-// Method Definition Index: 115168
+// Method Definition Index: 115171
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void UnitySourceGeneratedAssemblyMonoScriptTypes_v1__ctor_mB8DA2ACC5F94099D333ADB921E4AC1CA89093471 (UnitySourceGeneratedAssemblyMonoScriptTypes_v1_t2A74D73C64FE1AA4EC14EA2DDFE8B601FCC7E705* __this, const RuntimeMethod* method) 
 {
 	{
@@ -723,7 +723,7 @@ IL2CPP_EXTERN_C void MonoScriptData_t437B3D77ED2CDE95A3E4F5DE89DB50A7E6B2A625_ma
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115169
+// Method Definition Index: 115172
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations__ctor_m553FCC132053944C31EE58781BB3FCEB99D06C79 (BinaryWriterWithLessAllocations_t0597571A28D25878AE6E2EDC9EDE681EBB0DC815* __this, Stream_tF844051B786E8F7F4244DBD218D74E8617B9A2DE* ___0_binStream, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -741,7 +741,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations__ctor_m5
 		return;
 	}
 }
-// Method Definition Index: 115170
+// Method Definition Index: 115173
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations_Write_mBCFD2E71FB2A2486F4AEDD740F61F1BE949F54B2 (BinaryWriterWithLessAllocations_t0597571A28D25878AE6E2EDC9EDE681EBB0DC815* __this, SingleU5BU5D_t89DEFE97BCEDB5857010E79ECE0F52CF6E93B87C* ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -891,7 +891,7 @@ IL_00ac:
 		return;
 	}
 }
-// Method Definition Index: 115171
+// Method Definition Index: 115174
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations_Write_m478F19D1C6FD88C7D50C94144D75A7537AFD67D2 (BinaryWriterWithLessAllocations_t0597571A28D25878AE6E2EDC9EDE681EBB0DC815* __this, float ___0_value, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -973,7 +973,7 @@ IL_0046:
 		return;
 	}
 }
-// Method Definition Index: 115172
+// Method Definition Index: 115175
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations_Write_mBC04F203322EBC95E99314874835308B8DCF9FF5 (BinaryWriterWithLessAllocations_t0597571A28D25878AE6E2EDC9EDE681EBB0DC815* __this, Vector4U5BU5D_tC0F3A7115F85007510F6D173968200CD31BCF7AD* ___0_arr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1295,7 +1295,7 @@ IL_0252:
 		return;
 	}
 }
-// Method Definition Index: 115173
+// Method Definition Index: 115176
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations_Write_m97AB5B604DA287BDCDBF607C1941AE0A77D2F054 (BinaryWriterWithLessAllocations_t0597571A28D25878AE6E2EDC9EDE681EBB0DC815* __this, Vector3U5BU5D_tFF1859CCE176131B909E2044F76443064254679C* ___0_arr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1561,7 +1561,7 @@ IL_01ce:
 		return;
 	}
 }
-// Method Definition Index: 115174
+// Method Definition Index: 115177
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations_Write_mFB1517E4038E29A21E10885160A65E753B412A98 (BinaryWriterWithLessAllocations_t0597571A28D25878AE6E2EDC9EDE681EBB0DC815* __this, QuaternionU5BU5D_t3C088AFB0F3D2763228C9CAB227021C5DC462AF7* ___0_arr, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1883,7 +1883,7 @@ IL_0252:
 		return;
 	}
 }
-// Method Definition Index: 115175
+// Method Definition Index: 115178
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations__cctor_m84A827A3C56BC60D0213BD2628D59ABFDD5AEECE (const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1909,7 +1909,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void BinaryWriterWithLessAllocations__cctor_m
 #pragma clang diagnostic ignored "-Winvalid-offsetof"
 #pragma clang diagnostic ignored "-Wunused-variable"
 #endif
-// Method Definition Index: 115176
+// Method Definition Index: 115179
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryChecker__ctor_mE21078C83840BE60EF6C8FD1DE90A7CCC8851294 (MemoryChecker_t84D6F2114CE4BC5DA7E5E7E8DE107A5E88923659* __this, const RuntimeMethod* method) 
 {
 	static bool s_Il2CppMethodInitialized;
@@ -1932,7 +1932,7 @@ IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryChecker__ctor_mE21078C83840BE60EF6
 		return;
 	}
 }
-// Method Definition Index: 115177
+// Method Definition Index: 115180
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryChecker_ThrowIfOutOfMemory_m7EA3954F8BAB96EB1879EA199CA07B6C5D6C72E7 (MemoryChecker_t84D6F2114CE4BC5DA7E5E7E8DE107A5E88923659* __this, const RuntimeMethod* method) 
 {
 	{
@@ -1956,7 +1956,7 @@ IL_000e:
 		return;
 	}
 }
-// Method Definition Index: 115178
+// Method Definition Index: 115181
 IL2CPP_EXTERN_C IL2CPP_METHOD_ATTR void MemoryChecker_Application_lowMemory_m20D021507C396965CFCB4988C94704A4BE859283 (MemoryChecker_t84D6F2114CE4BC5DA7E5E7E8DE107A5E88923659* __this, const RuntimeMethod* method) 
 {
 	{

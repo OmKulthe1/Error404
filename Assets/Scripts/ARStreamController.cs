@@ -59,6 +59,16 @@ public class ARStreamController : MonoBehaviour
         {
             downloadedModel = new GameObject("StreamedModel");
             await gltf.InstantiateMainSceneAsync(downloadedModel.transform);
+
+            // Add colliders to all mesh renderers for touch detection
+            foreach (var renderer in downloadedModel.GetComponentsInChildren<MeshRenderer>())
+            {
+                if (renderer.gameObject.GetComponent<Collider>() == null)
+                {
+                    renderer.gameObject.AddComponent<MeshCollider>();
+                }
+            }
+
             downloadedModel.SetActive(false);
             Debug.Log("Model downloaded successfully!");
         }
@@ -102,8 +112,8 @@ public class ARStreamController : MonoBehaviour
             {
                 if (placedModel == null)
                 {
-                    // TAP TO PLACE
-                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Began && touch0.tapCount == 1)
+                    // DOUBLE-TAP TO PLACE
+                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Began && touch0.tapCount == 2)
                     {
                         Handheld.Vibrate();
 
@@ -117,7 +127,7 @@ public class ARStreamController : MonoBehaviour
                             downloadedModel.transform.position = offsetPosition;
                             downloadedModel.transform.rotation = hitPose.rotation;
 
-                            downloadedModel.transform.localScale = new Vector3(0.2f, 0.2f, 0.2f);
+                            downloadedModel.transform.localScale = new Vector3(0.15f, 0.15f, 0.15f);
                             downloadedModel.SetActive(true);
                             placedModel = downloadedModel;
                             SetPlaneIndicatorsActive(false);
@@ -132,8 +142,8 @@ public class ARStreamController : MonoBehaviour
                 }
                 else
                 {
-                    // DOUBLE-TAP TO REMOVE MODEL
-                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Began && touch0.tapCount == 2)
+                    // DOUBLE-TAP ON MODEL TO REMOVE
+                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Began && touch0.tapCount == 2 && IsTouchOnModel(touch0.screenPosition))
                     {
                         placedModel.SetActive(false);
                         placedModel = null;
@@ -141,8 +151,8 @@ public class ARStreamController : MonoBehaviour
                         return;
                     }
 
-                    // SWIPE TO ROTATE
-                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Moved)
+                    // SWIPE ON MODEL TO ROTATE
+                    if (touch0.phase == UnityEngine.InputSystem.TouchPhase.Moved && IsTouchOnModel(touch0.screenPosition))
                     {
                         placedModel.transform.Rotate(0, -touch0.delta.x * rotationSpeed, 0, Space.World);
                     }
@@ -185,6 +195,18 @@ public class ARStreamController : MonoBehaviour
         {
             plane.gameObject.SetActive(active);
         }
+    }
+
+    private bool IsTouchOnModel(Vector2 screenPosition)
+    {
+        if (placedModel == null) return false;
+
+        Ray ray = Camera.main.ScreenPointToRay(screenPosition);
+        if (Physics.Raycast(ray, out RaycastHit hit))
+        {
+            return hit.collider.transform.IsChildOf(placedModel.transform) || hit.collider.gameObject == placedModel;
+        }
+        return false;
     }
 
     private bool IsPointerOverUI(Vector2 screenPosition)
