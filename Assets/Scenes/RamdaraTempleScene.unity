@@ -150,7 +150,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: Assembly-CSharp::ARStreamController
   raycastManager: {fileID: 986683264}
   planeManager: {fileID: 986683265}
-  modelUrl: 'https://raw.githubusercontent.com/OmKulthe1/Error404/c1f347998036705ea8e07887175c0e7821ab1e50/Assets/Models/Temple1.glb '
+  modelUrl: 'https://raw.githubusercontent.com/OmKulthe1/Error404/7018021c05fb2223c805f72af4161a12c7d0db19/Assets/Models/Temple1.glb '
   minScale: 0.05
   maxScale: 0.1
   rotationSpeed: 0.2
